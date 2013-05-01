@@ -1,0 +1,59 @@
+/*
+Theme Name: sli
+Theme URI: www.wickedwdd.com/portfolio
+Description: Child theme for twentytwelve
+Version: 1
+Author: m
+Author URI: www.wickedwdd.com
+Tags: black, blue, brown, one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-colors, custom-background, custom-menu, editor-style, theme-options, threaded-comments, translation-ready, featured-images, full-width-template
+License: GNU General Public License, Version 2 (or newer)
+License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Template: twentytwelve
+*/
+
+@import url("../twentytwelve/style.css");
+#masthead h1 { font-weight: normal; }
+#masthead h2 { font-size: 20px; font-style: italic;}
+
+h2 {padding-bottom: 10px;}
+
+.entry-title, a, h2, h3 {color: #0236ae;}
+
+.nav-previous {margin-top: 10px; }
+.nav-previous a { color: #6495ED;}
+.nav-next {margin-top: 10px;}
+.nav-next a { color: #6495ED;}
+a:hover { color: #8DC541;}
+
+.post-meta-key { font-weight: bold; padding-right: 10px;}
+.post-meta li { list-style: none; margin-left: 10px;}
+
+#categories-2 li { font-size: 20px; }
+#categories-2 a { color: #8DC541;}
+
+#mission { padding-right: 20px; padding-left: 20px; border-left: 3px solid #C2C2C2; border-right: 3px solid #C2C2C2; margin-bottom: 40px; margin-top: 40px;}
+
+.big-support {color: #8dc541; font-size: 34px; font-weight: bold;}
+
+.site-content article {margin-bottom: 20px;}
+
+.archive-title { font-size: 24px; /*color: #393331;*/}
+.widget-title { font-size: 16px;}
+
+.widget-area .widget a:hover { color: #8DC541;}
+
+/*--- Contact Form Style ----*/
+#contact { background-color: #8DC541; padding: 20px; padding-left: 40px;}
+#contact p { margin-bottom: 5px;}
+
+
+/*-- footer ---*/
+.footer-section { width: 300px; float: left; padding-bottom: 20px; margin-right: 20px;}
+/*body.custom-background {background: #fafcf9;
+background: -moz-linear-gradient(top, #fafcf9 0%, #8dc541 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafcf9), color-stop(100%,#8dc541));
+background: -webkit-linear-gradient(top, #fafcf9 0%,#8dc541 100%);
+background: -o-linear-gradient(top, #fafcf9 0%,#8dc541 100%);
+background: -ms-linear-gradient(top, #fafcf9 0%,#8dc541 100%);
+background: linear-gradient(to bottom, #fafcf9 0%,#8dc541 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafcf9', endColorstr='#8dc541',GradientType=0 );}
